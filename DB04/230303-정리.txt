@@ -1,43 +1,43 @@
-1.	SQL을 3가지로 구분, 각각을 간단 설명, 예를 들어보세요.
+1. SQL을 3가지로 구분, 각각을 간단 설명, 예를 들어보세요.
 	•DDL: 데이터 항목의 정의(스키마) - create, alter, drop, truncate
 	•DML: 데이터 조작 - insert, select, update, delete
 	•DCL: DBMS제어관리(계정관리, 백업/복원) - grant, revoke, backup, restore, create user
 
-2.	 DML로 할 수 있는 조작 4가지를 부르는 말
+2. DML로 할 수 있는 조작 4가지를 부르는 말
 	CRUD(크루드)
 
-3.	 DML의 조작 4가지에 해당하는 각 SQL문
+3. DML의 조작 4가지에 해당하는 각 SQL문
 	•C(insert)
 	•R(select)
 	•U(update)
 	•D(delete)
 
-4.	정형데이터 베이스란?
+4. 정형데이터 베이스란?
 	항목을 정해서 저장하는 DB
 
-5.	스키마란?
+5. 스키마란?
 	데이터를 저장하기 위한 틀(뼈대): DB명, 테이블 명, 컬럼 명, 제약조건
 
-6.	ERD 란?
+6. ERD 란?
 	저장할 대상들 간의 관계도 (저장할 대상들 간의 관계를 그림으로 나타낸 것)
 
-7.	 제약조건 이란? 예 1개 이상
+7. 제약조건 이란? 예 1개 이상
 	Not null, PK, FK, unique 등
 
-8.	PRIMARY KEY를 왜 설정하는가?
+8. PRIMARY KEY를 왜 설정하는가?
 	Not null, unique
 
-9.	FOREIGN KEY를 왜 설정하는가?
+9. FOREIGN KEY를 왜 설정하는가?
 	문제가 있는 데이터가 들어가지 않게 자동 체크
 
-10.	저장할 대상을 부르는 말? 한글/영어
+10. 저장할 대상을 부르는 말? 한글/영어
 	한글: 개체, == 영어: 엔티티
 
-11.	VARCHAR2 와 CHAR의 차이
+11. VARCHAR2 와 CHAR의 차이
 	Varchar2는 가변, char는 불변
 
-12.	JOIN을 왜 하는가?
+12. JOIN을 왜 하는가?
 	검색할 내용이 여러 테이블을 합해서 해야 하는 경우
 
-13.	JOIN의 3가지 종류 비교
+13. JOIN의 3가지 종류 비교
 	Inner join, left outer join, right outer join
